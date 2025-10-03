@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maartens Nathon - Portfolio</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <!--- Chapter 4 Structural HTML Elements--->
+    <header>
+        <h1>Maartens Nathon</h1>
+        <p>Full Stack Web Development Specializing in Modern Web Technology</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!---Chapter 5 Phrasing HTML Elements-->
+        <section id="about" class="fade-in">
+            <h2>About Us</h2>
+                <p>
+                    I am a dedicated <strong>Full - Stack Web Developer</strong> with over five years 
+                    of experience in building <em>responsive</em> and <b>user-friendly</b> Web applications. My expertise spans
+                    front-end and back-end development, with a passion for creating seamless digital experience.
+                    I specialize in modern frameworks and strive to deliver <mark>high-quality</mark>
+                    solutions tailored to client needs.
+                </p>
+
+                <!-- Chapter 7 Embedded HTML Elements-->
+                 <img src="Nathon.jpg" alt="Profile Picture of Maartens Nathon" class="profile-img">
+        </section> 
+        
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <p>
+                Throughout my career, I have worked with diverse teams to deliver innovative
+                web solutions. My roles have included designing intuitve user interface, optimizing
+                back-end performance, and integrating APIs for enhanced functionality. Below is a
+                summary of my key projects. 
+            </p>
+        </section>
+
+        <!-- CHapter 6 Table  HTML Elements-->
+         <section id="projects">
+            <h2>Selected Projects</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Technology</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>E-Commerce Platform</td>
+                        <td>Developed a scalable online store with secure payment inetgration
+                            and user authentication.
+                        </td>
+                        <td>React, Node.js, MongoDB</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Portfolio Website</td>
+                        <td>Designed a personal portfolio to showcase my skills and projects 
+                            with a responsive layout.
+                        </td>
+                        <td>HTML, CSS, Flexbox</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>Task Management App</td>
+                        <td>Built a collaborative task management tool with real-time updates
+                            and user roles.
+                        </td>
+                        <td>VUE.js, Firebase</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>Blog Platform</td>
+                        <td>Created a dynamic blog with commenting and content management
+                            features.
+                        </td>
+                        <td>WordPress, PHP, MySQL</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>
+            </table>
+         </section>
+         <!-- Chapter 8 HTML Form Elements-->
+          <section id="contact" class="fade-in">
+            <h2>Contact Me</h2>
+            <p>Interested in collaborating or have a project in mind? 
+                Feel free to reach out using the form below
+            </p>
+            <form>
+                <label for="name">Fill Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email" required>                
+                <label for="subject">Subject:</label>
+                <input type="text" name="subject" id="subject" placeholder="Enter Subject">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter Message Here" required></textarea>
+                <button type="submit">Send Message</button>
+            
+            </form>
+          </section>
+          <!--Chapter 14 Flexbox-->
+          <section>
+            <h2>Technical Skills</h2>
+            <p>
+                I am proficient in a wide range of technologies , enabling me to build robust 
+                and scalable web applications. 
+            </p>
+            <div class="flex-container">
+                <div class="flex-item">HTML & CSS3</div>
+                <div class="flex-item">Javascript (ES6+)</div>
+                <div class="flex-item">React & Redux</div>
+                <div class="flex-item">Node.js & Express</div>
+                <div class="flex-item">MongoDB & SQL</div>
+                <div class="flex-item">Git & Version Control</div>
+            </div>
+          </section>
+    </main>
+    <!--Chapter 10 Positioning-->
+    <footer>
+        <p style="color: white">&copy; 2025 Maartens Nathon. All rights reserved. | Connect with me on 
+            <a href="https://www.linkedin.com/in/nathon-maartens-710b01358/" style="color:aqua">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+</html>
